@@ -1,9 +1,11 @@
 package com.nagarro.sb.service;
 
-import org.springframework.data.repository.CrudRepository;
+import java.util.Collection;
 
 import com.nagarro.sb.pojo.Currency;
 
-public interface CurrencyService extends CrudRepository<Currency, Integer>{
+public interface CurrencyService {
 
+	Collection<Currency> getAvailableCurrencies();
+	
 }

@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity(name = "CC_CURRENCY")
+@Entity(name = "CC_CURRENCY_MASTER")
 public class Currency {
 
 	@Id
